@@ -1,4 +1,4 @@
-# Powered by @itzshukla | Tele:- @SHIVANSH474
+# Powered by @Farzicoderxd | Tele:- @Farzicoderxd
 # Dear Pero ppls Plish Don't remove this line from here🌚
 # created by by only you
 # Kangers ki mkc
