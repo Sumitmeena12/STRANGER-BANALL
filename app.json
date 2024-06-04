@@ -3,7 +3,7 @@
   "description": "Telegram's bilek migic.",
   "keywords": ["python", "telegram"],
   "logo": "https://graph.org/file/1d11deb9c55d1301e9cae.jpg",
-  "repository": "https://github.com/itzshukla/STRANGER-BANALL",
+  "repository": "https://github.com/Sumitmeena12/STRANGER-BANALL",
   "stack": "container",
   "addons": [
       {
@@ -34,7 +34,7 @@
             "description": "App Hash from my.telegram.org/apps",
             "required": true
         },
-        "OWNER_ID": {
+        "OWNER_ID": {5569528945
             "description": "Owner's numeric ID",
             "required": true
         }
