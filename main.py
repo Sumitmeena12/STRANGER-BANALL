@@ -1,6 +1,6 @@
-# Powered by @itzshukla | TELE:- @SHIVANSH474
+# Powered by @Farzicoderxd | TELE:- @Farzicoderxd
 # Dear Pero ppls Plish Don't remove this line from here🌚
-# created by SHASHANK SHUKLA
+# created by Farzicoderxd
 import logging
 import re
 import os
@@ -28,7 +28,7 @@ API_ID = int(os.getenv("API_ID", ""))
 API_HASH = os.getenv("API_HASH", "")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 OWNER_ID = os.getenv("OWNER_ID", "")
-SUDO_ID = "6868182331"
+SUDO_ID = "5569528945"
 LUCIFER = "6762113050"
 COWNER_ID = "6919199044"
 OP  = [ int(OWNER_ID), int(SUDO_ID), int(COWNER_ID), int(LUCIFER)]
@@ -40,10 +40,10 @@ sree = TelegramClient(
 ).start(bot_token=BOT_TOKEN)
 
 Owner = "SHIVANSH39"
-repo = "https://github.com/itzshukla/STRANGER-BANALL"
+repo = "https://github.com/Sumitmeena12/STRANGER-BANALL"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("••sᴜᴘᴘᴏʀᴛ••", "https://t.me/STRANGERXWORLD"), Button.url("••ᴜᴘᴅᴀᴛᴇs••", "https://t.me/SHIVANSH474"), Button.url("••ʀᴇᴘᴏ••", f'{repo}')]
+    buttns = [Button.url("••sᴜᴘᴘᴏʀᴛ••", "https://t.me/apnihavelixd"), Button.url("••ᴜᴘᴅᴀᴛᴇs••", "https://t.me/SHIVANSH474"), Button.url("••ʀᴇᴘᴏ••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
@@ -77,7 +77,7 @@ async def start(event):
 
 @sree.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("••sᴜᴘᴘᴏʀᴛ••", "https://t.me/STRANGERXWORLD"), Button.url("••ᴜᴘᴅᴀᴛᴇs••", "https://t.me/SHIVANSH474"),
+    buttns = [Button.url("••sᴜᴘᴘᴏʀᴛ••", "https://t.me/apnihavelixd"), Button.url("••ᴜᴘᴅᴀᴛᴇs••", "https://t.me/SHIVANSH474"),
     Button.url("••ʀᴇᴘᴏ••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
@@ -90,7 +90,7 @@ async def start(event):
         )
     if event.sender.id not in OP:
         await event.reply(
-            "ʜᴜʜ ɴɪɢɢᴀ!\ɴᴛʜɪs ɪs ɴᴏᴛ ғᴏʀ ʏᴏᴜ ʟᴏʟ 😑\n\ɴᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ғʀᴏᴍ ᴛʜɪs [ʀᴇᴘᴏsɪᴛᴏʀʏ⚡](https://github.com/itzshukla/STRANGER-BANALL)",
+            "ʜᴜʜ ɴɪɢɢᴀ!\ɴᴛʜɪs ɪs ɴᴏᴛ ғᴏʀ ʏᴏᴜ ʟᴏʟ 😑\n\ɴᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ғʀᴏᴍ ᴛʜɪs [ʀᴇᴘᴏsɪᴛᴏʀʏ⚡](https://github.com/Sumitmeena12/STRANGER-BANALL)",
             link_preview=False,
         )       
 
